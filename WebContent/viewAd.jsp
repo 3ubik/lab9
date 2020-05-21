@@ -34,6 +34,7 @@
     <%-- Отобразить текст объявления в отдельной рамке --%>
     <div style="border: 1px solid black; padding: 20px;">
         <c:out value="${ad.body}" />
+       
     </div>
 </my:layout1Column>
 <%-- Вставить нижний заголовок страницы --%>

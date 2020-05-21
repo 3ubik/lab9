@@ -36,10 +36,13 @@ public class Ad implements Serializable, Identifiable {
 		this.subject = subject;
 	}
 	public String getBody() {
+		System.out.print(body);
 		return body;
 	}
 	public void setBody(String body) {
+		System.out.print(body);
 		this.body = body;
+		
 	}
 	public int getAuthorId() {
 		return authorId;

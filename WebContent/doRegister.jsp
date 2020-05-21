@@ -6,6 +6,8 @@
 <%@taglib prefix="ad" uri="http://tag/ad" %>
 <%-- Указать, что мы ожидаем данные в кодировке UTF-8 --%>
 <fmt:requestEncoding value="UTF-8" />
+
+
 <%-- Удалить из сессии старые данные --%>
 <c:remove var="userData" />
 <%-- Сконструировать новый JavaBean в области видимости сессии --%>

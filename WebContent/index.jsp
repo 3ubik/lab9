@@ -25,8 +25,7 @@ leftColumnBody --%>
 			   sort="${sessionScope.sort}" dir="${sessionScope.dir}" />
 	<%-- Показать объявления без возможности
     редактирования --%>
-	<my:adListing adListing="${adListing}"
-				  editMode="false" />
+	<my:adListing adListing="${adListing}" editMode="false" />
 </jsp:attribute>
 	<jsp:attribute name="rightColumnBody">
 <%-- Содержание правой колонки передаѐтся как атрибутrightColumnBody --%>
@@ -42,7 +41,7 @@ leftColumnBody --%>
 используется JSTL тег c:url --%>
 	<c:url value="/doLogin.jsp" />
 </jsp:attribute>
-</my:loginForm>
+</my:loginForm >
 		<%-- Вставить ссылку регистрации --%>
 
 <my:registerButton>

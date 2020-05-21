@@ -11,10 +11,12 @@ import helper.UserListHelper;
 public class AddUser extends SimpleTagSupport {
 	// Поле данных для атрибута user
 	private User user;
+	
 	// Метод-сеттер для установки атрибута (вызывается контейнером)
 	public void setUser(User user) {
 		this.user = user;
 	}
+	
 	public void doTag() throws JspException, IOException {
 // Изначально описание ошибки = null (т.е. ошибки нет)
 		String errorMessage = null;
